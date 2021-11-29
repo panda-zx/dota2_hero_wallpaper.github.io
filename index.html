@@ -5,28 +5,24 @@
     <body>
         <table>
             <tr>
-                <td id="liliang_td">
-                </td>
-                <td id="minjie_td">
-                </td>
-                <td id="zhili_td">
-                </td>
+                <td id="liliang_td"></td>
+                <td id="minjie_td"></td>
+                <td id="zhili_td"></td>
             </tr>
         </table>
     </body>
 </html>
 <style>
 body{margin: 0;}
-table1{
-    width: 100%;
-    height: 100%;
-}
 table{
     margin: auto;
 }
 table td{
     width: 520px;
     vertical-align: top;
+}
+table td:hover{
+    opacity: 0.5;
 }
 table div{
     background-size: 100% 100%;
@@ -40,7 +36,7 @@ table div{
 }
 table div>span{
     visibility: hidden;
-    background:rgba(0,0,0,0.4);
+    background:rgba(0,0,0,0.5);
 }
 table div:hover>span{
     visibility: visible;
